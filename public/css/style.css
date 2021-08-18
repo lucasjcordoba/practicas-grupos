@@ -1,0 +1,85 @@
+
+/* Estilos Generales */
+*{
+    margin:0;
+    padding:0
+}
+
+li {
+    list-style: none
+}
+
+
+
+/* Header */
+#header{
+    display: flex;
+    background-color:darkorange
+}
+
+.link-style{
+    text-decoration: none;
+}
+
+#logo{
+    height: 50px
+}
+
+.logo{
+    columns: 3;
+}
+
+.search{
+    height: 25px
+}
+
+.form-search{
+    columns: 4;
+}
+
+.carrito{
+    columns: 3;
+    display: grid;
+}
+
+.link-session{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Nav Bar */
+#nav-bar > ul {
+    display: flex;
+    justify-content:space-around
+}
+
+
+#nav-bar > ul >li > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* MAIN */
+
+#main {
+    columns: 3;
+    display:flex
+}
+
+
+/*  FOOTER */
+
+footer{
+    background-color: darkorange;
+    height:200px
+}
+
+#lists-footer{
+    columns: 3;
+}
+
+#footer {
+    display: flex;
+}
